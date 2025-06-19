@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+/* .mainbody {
+  width: 100%;
+  height: 100%;
+  
+} */
+body{
+  
+  overflow-x: hidden;
+  max-width: 100%;
+}
+html{
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.main {
+  background: url(/Exercise/Netflix/assets/images/IN-en-20250602-TRIFECTA-perspective_27a3fdfa-126f-4148-b153-55d60b51be6a_large.jpg);
+
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  position: relative;
+}
+.main .shade {
+  background-color: rgba(0, 0, 0, 0.74);
+  height: 90vh;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80vw;
+  margin: auto;
+  align-items: center;
+  height: 100px;
+}
+nav img {
+  width: 150px;
+  z-index: 10;
+}
+
+nav button {
+  width: 100px;
+  height: 30px;
+}
+
+.lang {
+  width: 15px;
+}
+
+.hero {
+  height: 80%;
+
+  color: rgb(247, 244, 244);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+}
+
+.hero > :nth-child(1) {
+  font-family: noto sans;
+  font-weight: bolder;
+  font-size: 60px;
+}
+.hero > :nth-child(2) {
+  font-family: noto sans;
+  font-weight: bolder;
+  font-size: 60px;
+}
+.hero > :nth-child(3) {
+  font-family: noto sans;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.hero > :nth-child(4) {
+  font-family: noto sans;
+  font-weight: 00;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 50%;
+  text-align: center;
+}
+.hero > :nth-child(5) {
+  font-family: noto sans;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 50%;
+  text-align: center;
+}
+input {
+  width: 40%;
+  height: 56px;
+  background-color: black;
+  color: rgb(105, 104, 104);
+  border: solid 1px rgb(83, 82, 82);
+  line-height: 1.5;
+  border-radius: 3px;
+}
+button {
+  width: 30%;
+  height: 56px;
+  background-color: red;
+  border: none;
+  font: bolder;
+  font-size: 20px;
+  border-radius: 2px;
+  line-height: 1.5;
+  color: white;
+  text-decoration: solid 3px;
+}
+.en {
+  background-color: black;
+  border: 1px solid gray;
+  font-size: medium;
+  background: transparent;
+}
+.langlist {
+  background-color: #210e17;
+  color: white;
+  border: none;
+}
+.line {
+  height: 60px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(33, 13, 22, 1) 16%,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1),
+    rgba(33, 13, 22, 1) 84%
+  );
+  position: relative;
+  /* z-index: -1; */
+}
+/* .linee{
+    background-image: radial-gradient( 50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1)100%)black;
+                    
+    height: 70vh;
+    width: 100%;
+    margin-top:-.30rem ;
+    position: relative;
+}  */
+.movies_out {
+  height: 60vh;
+  background-color: black;
+  color: white;
+  font-size: large;
+  width: 100%;
+  position: relative;
+}
+.movie {
+  width: 90%;
+  height: 50vh;
+  margin:auto auto auto 120px;
+  /* background-color:rgb(32, 32, 32); */
+  position: absolute;
+}
+.movie:first-child {
+  margin-top: 30px;
+}
+.movie_name {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  /* background-color: rosybrown; */
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  column-gap: 45px;
+  align-items: center;
+}
+
+div.card1 {
+  /* background-color: blanchedalmond; */
+  width: 13vw;
+  height: 35vh;
+  /* overflow: hidden; */
+  border-radius: 15px;
+  /* object-fit: cover; */
+  position: relative;
+}
+.imge {
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+}
+.no {
+  position: absolute;
+  top: 130px;
+  left: -20px;
+  font-size: 100px;
+  color: black;
+  font-weight: 900;
+  -webkit-text-stroke: white 2px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.more {
+  height: 60vh;
+  background-color: black;
+  color: white;
+  /* position: absolute; */
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+.morecard {
+  height: 75%;
+  width: 75%;
+  color: white;
+  font-family: noto sans;
+  font-weight: 500;
+  background-color: black;
+  margin:  auto 200px;
+  position: relative;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card2 {
+  height: 75%;
+  width: 40%;
+  border-radius: 15px;
+
+  background-image: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+
+.questionbox {
+  height: 70vh;
+  width: 100%;
+
+  margin: auto;
+  color: white;
+  /* position: absolute; */
+  background-color: black;
+}
+
+.qb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.1px;
+  margin: 3px 88px 24px 163px;
+}
+.que {
+  height: 70px;
+  width: 75vw;
+  justify-content: space-between;
+  /* border: solid ; */
+  color: white;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  font-weight: lighter;
+  margin: 7px 81px 2px -20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2d2d2d;
+}
+.que:hover {
+  background-color: #4a4848;
+  transition: 0.5s ease-in-out;
+}
+.member{
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+  /* position: absolute; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.form2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+  justify-items: center;
+
+}
+.footar{
+  height: 80vh;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  position: absolute;
+  color: rgb(163, 162, 162);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.last{
+  width:75vw;
+  height: 15vh;
+  margin: auto;
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  grid-template-rows: 1fr;
+}
+
+a{
+  color: rgb(163, 162, 162);
+}
+
+.en2{
+  background-color: rgb(180, 20, 20);
+  border: 1px solid gray;
+  font-size: medium;
+  width: 40%;
+  grid-row: 7;
+ position: relative;
+  height: 30px;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .hero > :nth-child(1),
+  .hero > :nth-child(2) {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  input,
+  button {
+    width: 90%;
+  }
+
+  .movie_name {
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    
+    
+  }
+  
+  .morecard {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    position: relative;
+  }
+
+  .last {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+  }
+}
